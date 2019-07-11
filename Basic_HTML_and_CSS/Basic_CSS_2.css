@@ -1,0 +1,12 @@
+p {
+	color: purple;
+	background: red;
+	font-style: normal;
+	text-align: left-center;
+   }
+   h1 {
+	   text-shadow: 2px 2px 8px #FF0000;
+   }
+   h2 {
+	   text-shadow: 2px 2px red;
+   }
