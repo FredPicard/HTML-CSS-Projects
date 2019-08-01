@@ -1,0 +1,105 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+.main {
+  margin-top: 30px; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img {
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+  }
+  .image 
+  { 
+  position:relative;
+  width: 100%; 
+  } 
+  h2 
+  { 
+  position:absolute; 
+  top: 200px;
+    left: 200px;
+  width: 100%; 
+  }
+  
+  h2 span 
+  { 
+  color: purple; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px; 
+  background:pink (0, 0, 0); 
+  background: yellow(0, 0, 0, 0.7); padding: 10px; 
+  }
+  h2 span.spacer { padding:0 5px; }
+  img {
+    border-radius: 15%;
+  } 
+  .block {
+    position: relative;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.overlay
+{
+   opacity: 0;
+}
+.block:hover .overlay {
+    width: 300px;
+    height: 300px;
+    background: plum;    
+    opacity: 1;
+}
+ 
+ p:hover { 
+  background-color: purple;
+}
+
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  table, td, th {  
+    border: 5px solid #ddd;
+    text-align: left;
+  }
+  th {
+    background-color: pink;
+  }
+ 
+
+  footer {
+    text-align: center;
+    font-weight: bold;
+  }
